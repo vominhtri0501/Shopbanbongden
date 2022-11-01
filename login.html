@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Login | E-Shopper</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/login_style.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		<div class="header_top"><!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> 0989.04.3239 - 0982.051.651</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> lightVN@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+						</div>
+						<div class="btn-group pull-right">
+
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+	
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Products</a></li>
+										<li><a href="product-details.html">Product Details</a></li>
+										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="cart.html">Cart</a></li>
+										<li><a href="login.html">Login</a></li>
+                                    </ul>
+                                </li>
+								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="blog.html">Blog List</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+								<li><a href="404.html">404</a></li>
+								<li><a href="contact-us.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Search"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+
+	<section id="login_section">
+		<div class="container">
+			<div class="row">
+				<div class="center">
+
+					<div class="container_login">
+
+						<div class="text">
+							Login Form</div>
+						<form action="#">
+							<div class="data">
+								<label>Email or Phone</label>
+								<input type="text" required>
+							</div>
+							<div class="data">
+								<label>Password</label>
+								<input type="password" required>
+							</div>
+							<div class="forgot-pass">
+								<a href="#">Forgot Password?</a>
+							</div>
+							<div class="btn_login">
+
+								<button  type="submit">login</button>
+							</div>
+							<div class="signup-link">
+								Not a member? <a href="#">Signup now</a></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer"><!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<img src="images/home/logo.PNG" style="width: 180px;height: 100px">
+							<h2>CÔNG TY CỔ PHẦN THIẾT BỊ ĐIỆN VÀ CHIẾU SÁNG LIGHT</h2>
+						</div>
+					</div>
+
+					<div class="col-sm-8">
+						<div class="col-sm-4">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/h1.PNG" alt="" >
+									</div>
+								</a>
+								<p>CẦU GIẤY</p>
+								<h2>Địa chỉ: 31-33 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội</h2>
+								<h2>Hotline: 0989.04.3239</h2>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/h2.PNG" alt="" />
+									</div>
+								</a>
+								<p>LONG BIÊN</p>
+								<h2>Địa chỉ: 24 Lý Sơn, N07-22, Q.Long Biên, Hà Nội</h2>
+								<h2>Hotline: 0936.515.888</h2>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/h3.PNG" alt="" />
+									</div>
+<!--									<div class="overlay-icon">-->
+<!--										<i class="fa fa-play-circle-o"></i>-->
+<!--									</div>-->
+								</a>
+								<p>TP.HỒ CHÍ MINH</p>
+								<h2>Địa chỉ: 50/1 Quang Trung, P.10, Gò Vấp, Hồ Chí Minh</h2>
+								<h2>Hotline: 0909.961.962</h2>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>HỖ TRỢ KHÁCH HÀNG </h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li>- Hotline: 0989.04.32.39-0982.051.651</li>
+								<li>- 08h-18h (trừ CN)</li>
+								<li>- Các câu hỏi thường gặp</li>
+								<li>- Gửi yêu cầu hỗ trợ</li>
+								<li>- Hướng dẫn đặt hàng </li>
+								<li>- Phương thức vận chuyển</li>
+								<li>- Chính sách đổi trả</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>SẢN PHẨM & DỊCH VỤ</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li>Đèn chống cháy nổ</li>
+								<li>Đèn led nhà xưởng</li>
+								<li>Đèn led pha</li>
+								<li>Đèn led tuýp</li>
+								<li>Đèn led chống thấm</li>
+								<li>Đèn led panel</li>
+								<li>Tư vấn & thiết kế hệ thống chiếu sáng</li>
+								<li>Thi công hệ thống chiếu sáng công nghiệp</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>VỀ CHÚNG TÔI</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li>Phiếu mua hàng</li>
+								<li>Giới thiệu</li>
+								<li>Tuyển dụng</li>
+								<li>Chính sách bảo mật</li>
+								<li>Điều khoản sử dụng</li>
+								<li>Liên hệ</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>HỢP TÁC & LIÊN KẾT</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li>Rạng Đông</li>
+								<li>King LED</li>
+								<li>Asia</li>
+								<li>ELV</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Công ty LIGHT</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li>Địa chỉ: 31 Hoàng Quốc Việt, P.Nghĩa Độ, Q.Cầu giấy, Hà Nội  </li>
+								<li>Hotline: 0989.04.32.39 - 0982.051.651</li>
+								<li>Email:lightVN@gmail.com</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="single-widget">
+							<h2>ĐĂNG KÝ NHẬN TƯ VẤN</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Nhập email của bạn" />
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left"></p>
+				</div>
+			</div>
+		</div>
+
+	</footer><!--/Footer-->
+	
+
+  
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
