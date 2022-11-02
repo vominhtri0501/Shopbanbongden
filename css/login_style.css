@@ -49,6 +49,11 @@
     width: 100%;
     margin: 40px 0;
 }
+
+.container_login form .forgot_text{
+    margin-bottom: -40px;
+}
+
 form .data label{
     font-size: 16px;
     font-weight: unset;
