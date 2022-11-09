@@ -8,12 +8,12 @@
 /*}*/
 
 #login_section {
-    background-color: rgba(240, 240, 233, 0.3);
+    /*background-color: rgba(240, 240, 233, 0.3);*/
 }
 
 .center {
     width: 100%;
-    margin: 40px auto;
+    margin: 0px auto 50px;
     position: relative;
     /*background-color: rgba(240, 240, 233, 0.69);*/
 }
