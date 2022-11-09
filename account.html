@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Đăng ký | E-Shopper</title>
+    <title>Tài khoản | E-Shopper</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -14,6 +14,7 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/login_style.css">
+	<link href="css/account_style.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -129,50 +130,41 @@
 				<div class="breadcrumbs">
 					<ol class="breadcrumb">
 						<li><a href="#">Home</a></li>
-						<li class="active">Đăng ký</li>
+						<li class="active">Tài khoản</li>
 					</ol>
 				</div><!--/breadcrums-->
-				<div class="center">
-
-					<div class="container_login">
-
-						<div class="text">
-							Đăng ký</div>
-						<form action="#">
-							<div class="data">
-								<label>Tên</label>
-								<input type="text" required>
+				<div class="account_div">
+					<div class="col-md-3 border-right">
+						<div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"></div>
+					</div>
+					<div class="col-md-8 border-right">
+						<div class="p-3 py-5">
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<h3 class="">Tài khoản</h3>
 							</div>
-							<div class="data">
-								<label>SĐT / Email</label>
-								<input type="text" required>
+							<div class="row mt-2">
+								<div class="col-md-6"><label class="labels">Tên</label><input type="text" class="form-control" placeholder="Tên" value=""></div>
+								<div class="col-md-6"><label class="labels">Họ</label><input type="text" class="form-control" value="" placeholder="Họ"></div>
 							</div>
-							<div class="data">
-								<label>Mật khẩu</label>
-								<input type="password" required>
-							</div>
-							<div class="data">
-								<label>Nhập lại mật khẩu</label>
-								<input type="password" required>
-							</div>
-							<div class="checkbox_term">
-
-									<input type="checkbox"  name="check_term" class="check_term_btn">
-								<span>Bằng việc đăng kí tài khoản bạn đã, đồng ý với
-									<a href="#"> điều khoản sử dụng </a>của chúng tôi.</span>
-
+							<div class="row mt-3">
+								<div class="col-md-12"><label class="labels">SDT</label><input type="text" class="form-control" placeholder="Vui lòng nhập số điện thoại" value=""></div>
+								<div class="col-md-12"><label class="labels">Tỉnh</label><input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ" value=""></div>
+								<div class="col-md-12"><label class="labels">Quận / Huyện</label><input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ" value=""></div>
+								<div class="col-md-12"><label class="labels">Địa chỉ chi tiết</label><input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ" value=""></div>
+								<div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Email" value=""></div>
+								<div class="col-md-12"><label class="labels">Mật khẩu</label><input type="text" class="form-control" placeholder="Email" value=""></div>
 
 							</div>
-							<div class="btn_login">
 
-								<button  type="submit">Đăng ký</button>
-							</div>
-							<div class="signup-link">
-								Đã có tài khoản? <a href="login.html">Đăng nhập ngay!</a></div>
-						</form>
+							<div class="mt-5"><button class="btn btn-primary profile-button update-button" type="button">Update</button></div>
+						</div>
 					</div>
 				</div>
+
+
 			</div>
+		</div>
+		</div>
 		</div>
 	</section>
 
@@ -229,6 +221,7 @@
 								<h2>Hotline: 0909.961.962</h2>
 							</div>
 						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -322,9 +315,9 @@
 		</div>
 
 	</footer><!--/Footer-->
-	
 
-  
+
+
     <script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.scrollUp.min.js"></script>
