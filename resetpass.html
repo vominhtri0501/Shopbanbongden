@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Tài khoản | LIGHT</title>
+    <title>Quên Mật Khẩu | LIGHT</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -14,7 +14,6 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/login_style.css">
-	<link href="css/account_style.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -68,7 +67,7 @@
 				<div class="col-sm-8">
 					<div class="shop-menu pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="#"><i class="fa fa-user"></i> Tài Khoản</a></li>
+							<li><a href="account.html"><i class="fa fa-user"></i> Tài Khoản</a></li>
 							<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Thanh toán</a></li>
 							<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
 							<li><a href="login.html"><i class="fa fa-lock"></i> Đăng nhập </a></li>
@@ -103,7 +102,7 @@
 									<li><a href="login.html">Đăng nhập</a></li>
 								</ul>
 							</li>
-							<li><a href="blog.html">Tin tức</a></li>
+							<li><a href="blog.html" >Tin tức</a></li>
 							<li><a href="contact-us.html">Liên hệ</a></li>
 						</ul>
 					</div>
@@ -120,47 +119,49 @@
 
 	<section id="login_section">
 		<div class="container">
+			<div class="breadcrumbs">
+				<ol class="breadcrumb">
+					<li><a href="#">Trang chủ</a></li>
+					<li class="active">Quên mật khẩu</li>
+				</ol>
+			</div><!--/breadcrums-->
 			<div class="row">
-				<div class="breadcrumbs">
-					<ol class="breadcrumb">
-						<li><a href="#">Trang chủ</a></li>
-						<li class="active">Tài khoản</li>
-					</ol>
-				</div><!--/breadcrums-->
-				<div class="account_div">
-					<div class="col-md-3 border-right">
-						<div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"></div>
-					</div>
-					<div class="col-md-8 border-right">
-						<div class="p-3 py-5">
-							<div class="d-flex justify-content-between align-items-center mb-3">
-								<h3 class="">Tài khoản</h3>
-							</div>
-							<div class="row mt-2">
-								<div class="col-md-6"><label class="labels">Tên</label><input type="text" class="form-control" placeholder="Tên" value=""></div>
-								<div class="col-md-6"><label class="labels">Họ</label><input type="text" class="form-control" value="" placeholder="Họ"></div>
-							</div>
-							<div class="row mt-3">
-								<div class="col-md-12"><label class="labels">SDT</label><input type="text" class="form-control" placeholder="Vui lòng nhập số điện thoại" value=""></div>
-								<div class="col-md-12"><label class="labels">Tỉnh</label><input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ" value=""></div>
-								<div class="col-md-12"><label class="labels">Quận / Huyện</label><input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ" value=""></div>
-								<div class="col-md-12"><label class="labels">Địa chỉ chi tiết</label><input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ" value=""></div>
-								<div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Email" value=""></div>
-								<div class="col-md-12"><label class="labels">Mật khẩu</label><input type="password" class="form-control" placeholder="Mật khẩu" value=""></div>
-								<div class=" col-md-12 resetpass-link">
-									Đổi mật khẩu? <a href="resetpass.html">Đổi mật khẩu tại đây.</a></div>
+				<div class="center">
 
+					<div class="container_login">
+
+						<div class="text">
+							Thay đổi mật khẩu</div>
+						<form action="#">
+							<div class="data forgot_text">
+								<label>Điền các thông tin dưới đây để thay đổi mật khẩu.</label>
+							</div>
+							<div class="data">
+								<label>Email</label>
+								<input type="email" required>
+							</div>
+							<div class="data">
+								<label>Mật khẩu hiện tại</label>
+								<input type="password" required>
+							</div>
+							<div class="data">
+								<label>Mật khẩu mới</label>
+								<input type="password" required>
+							</div>
+							<div class="data">
+								<label>Nhập lại mật khẩu</label>
+								<input type="password" required>
+							</div>
+							<span></span>
+							<div class="btn btn-primary btn_login">
+
+								<button  type="submit">Gửi</button>
 							</div>
 
-							<div class="mt-5"><button class="btn btn-primary profile-button update-button" type="button">Update</button></div>
-						</div>
+						</form>
 					</div>
 				</div>
-
-
 			</div>
-		</div>
-		</div>
 		</div>
 	</section>
 
@@ -217,7 +218,6 @@
 								<h2>Hotline: 0909.961.962</h2>
 							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -311,9 +311,9 @@
 		</div>
 
 	</footer><!--/Footer-->
+	
 
-
-
+  
     <script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.scrollUp.min.js"></script>
