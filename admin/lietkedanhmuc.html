@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="brand">
 
     <a href="index.html" class="logo">
-        VISITORS
+        ADMIN
     </a>
     <div class="sidebar-toggle-box">
         <div class="fa fa-bars"></div>
@@ -75,27 +75,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="leftside-navigation">
                 <ul class="sidebar-menu" id="nav-accordion">
                     <li>
-                        <a class="active" href="index.html">
+                        <a  href="index.html">
                             <i class="fa fa-dashboard"></i>
                             <span>Tổng quan</span>
                         </a>
                     </li>
 
                     <li>
-                        <a class="active" href="quanlynguoidung.html">
+                        <a href="quanlynguoidung.html">
                             <i class="fa fa-user"></i>
                             <span>Quản lý người dùng</span>
                         </a>
                     </li>
 
+
+
                     <li class="sub-menu">
-                        <a href="javascript:;">
+                        <a class="active" href="javascript:;">
                             <i class="fa fa-book"></i>
                             <span>Danh mục sản phẩm</span>
                         </a>
                         <ul class="sub">
                             <li><a href="themdanhmucsp.html">Thêm danh mục</a></li>
-                            <li><a href="lietkedanhmuc.html">liệt kê danh mục</a></li>
+                            <li><a class="active" href="lietkedanhmuc.html">liệt kê danh mục</a></li>
 
                         </ul>
                     </li>
@@ -151,12 +153,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="row w3-res-tb">
                     <div class="col-sm-5 m-b-xs">
                         <select class="input-sm form-control w-sm inline v-middle">
-                            <option value="0">Bulk action</option>
-                            <option value="1">Delete selected</option>
-                            <option value="2">Bulk edit</option>
-                            <option value="3">Export</option>
+                            <option value="0">Tác vụ</option>
+                            <option value="1">Chỉnh sửa hàng loạt</option>
+                            <option value="2">Xóa đã chọn</option>
+
                         </select>
-                        <button class="btn btn-sm btn-default">Apply</button>
+
                     </div>
                     <div class="col-sm-4">
                     </div>
@@ -164,7 +166,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="input-group">
                             <input type="text" class="input-sm form-control" placeholder="Search">
                             <span class="input-group-btn">
-            <button class="btn btn-sm btn-default" type="button">Go!</button>
+            <button class="btn btn-sm btn-default" type="button">Tìm kiếm</button>
           </span>
                         </div>
                     </div>
@@ -181,6 +183,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <th>Tên danh mục</th>
                             <th>Hiển thị</th>
                             <th>Ngày thêm</th>
+                            <th>Tác vụ</th>
                             <th style="width:30px;"></th>
                         </tr>
                         </thead>
@@ -188,7 +191,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <tr>
                             <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
                             <td>Dèn leb tuýt</td>
-                            <td><span class="text-ellipsis">Ẩn/Hiển thị</span></td>
+                            <td><input type="checkbox"><i>Ẩn/Hiển thị</i></td>
                             <td><span class="text-ellipsis">11/7/2022</span></td>
                             <td>
                                 <a href="" class="active" ui-toggle-class=""><i class="fa fa-pencil-square-o text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
@@ -197,19 +200,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <tr>
                             <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
                             <td>Dèn leb xe nâng</td>
-                            <td>Ẩn/Hiển thị</td>
+                            <td><input type="checkbox"><i>Ẩn/Hiển thị</i></td>
                             <td>11/7/2022</td>
                             <td>
-                                <a href="" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
+                                <a href="" ui-toggle-class=""><i class="fa fa-pencil-square-o text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
                             </td>
                         </tr>
                         <tr>
                             <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
                             <td>Dèn leb máy bay</td>
-                            <td>Ẩn/Hiển thị</td>
+                            <td><input type="checkbox"><i>Ẩn/Hiển thị</i></td>
                             <td>11/7/2022</td>
                             <td>
-                                <a href="" class="active" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
+                                <a href="" class="active" ui-toggle-class=""><i class="fa fa-pencil-square-o  text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
                             </td>
                         </tr>
 
